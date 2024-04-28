@@ -1,4 +1,4 @@
--- Ссылка на Библиотеку
+)-- Ссылка на Библиотеку
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 --[[ 
 В данный момент стоит тема "RJTheme3" ,
@@ -68,7 +68,7 @@ Section:NewButton("espbox", "ButtonInfo", function()
                     esp.ZIndex = 0
                     esp.Size = Vector3.new(4, 5, 1)
                     esp.Transparency = 0.65
-                    esp.Color3 = Color3.fromRGB(255,48,48)
+                    esp.Color3 = Color3.fromRGB(124,252,0)
                     esp.AlwaysOnTop = true
                     esp.Name = "EspBox"
                 end
