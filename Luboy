@@ -42,7 +42,7 @@ local Section = Tab:NewSection("подпишись на канал плз❤️�
 
 -- Слайдер
 Section:NewSlider("WALKSPEED", "SliderInfo", 100, 0, function(s) -- 100 (Макс. значение) | 0 (Мин. значение)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 end)
 
 -- Создать окно UI
@@ -56,5 +56,5 @@ local Section = Tab:NewSection("подпишись на канал плз❤️�
 
 -- Слайдер
 Section:NewSlider("JUMPPOWER", "SliderInfo", 400, 0, function(s) -- 400 (Макс. значение) | 0 (Мин. значение)
-    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 400
 end)
