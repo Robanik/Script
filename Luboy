@@ -45,9 +45,6 @@ Section:NewSlider("WALKSPEED", "SliderInfo", 100, 0, function(s) -- 100 (Мак�
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 end)
 
--- Создать окно UI
-local Window = Library.CreateLib("создатель robanik", "RJTheme3")
-
 -- Секция
 local Tab = Window:NewTab("основной меню 2")
 
