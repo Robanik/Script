@@ -32,7 +32,7 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("создатель robanik", "RJTheme3")
+local Window = Library.CreateLib("создатель robanik", "RJTheme5")
 
 -- Секция
 local Tab = Window:NewTab("walk menu")
