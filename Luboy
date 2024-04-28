@@ -35,7 +35,7 @@ local colors = {
 local Window = Library.CreateLib("создатель robanik", "RJTheme3")
 
 -- Секция
-local Tab = Window:NewTab("основной меню")
+local Tab = Window:NewTab("walk menu")
 
 -- Подсекция
 local Section = Tab:NewSection("подпишись на канал плз❤️❤️❤️")
@@ -45,11 +45,8 @@ Section:NewSlider("WALKSPEED", "SliderInfo", 100, 0, function(s) -- 100 (Мак�
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
--- Создать окно UI
-local Window = Library.CreateLib("создатель robanik", "RJTheme3")
-
 -- Секция
-local Tab = Window:NewTab("основной меню 2")
+local Tab = Window:NewTab("jump menu")
 
 -- Подсекция
 local Section = Tab:NewSection("подпишись на канал плз❤️❤️❤️")
@@ -58,6 +55,12 @@ local Section = Tab:NewSection("подпишись на канал плз❤️�
 Section:NewSlider("JUMPPOWER", "SliderInfo", 400, 0, function(s) -- 400 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
+
+-- Секция
+local Tab = Window:NewTab("esp menu")
+
+-- Подсекция
+local Section = Tab:NewSection("подпишись на канал плз❤️❤️❤️")
 
 -- Кнопка
 Section:NewButton("полёт", "ButtonInfo", function()
